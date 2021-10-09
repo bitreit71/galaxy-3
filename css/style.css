@@ -1,0 +1,1078 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+*, body {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {outline: none; }
+a:focus, a:active {outline: none;}
+nav, footer, header, aside {display: block;}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {font-family: inherit;}
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: inherit; }
+
+@font-face {
+  font-family: 'gothic';
+  src: url('fonts/gothic.eot');
+  src: local('gothic'), url('fonts/gothic.woff') format('woff'), url('fonts/gothic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Swiss721BT-BlackOutline"; 
+  src: url("../fonts/Swiss 721 Black Outline BT.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: local('../fonts/Sofia Pro Regular.ttf'), local('Sofia-Pro-Regular'),
+      url('../fonts/SofiaProRegular.woff2') format('woff2'),
+      url('../fonts/SofiaProRegular.woff') format('woff'),
+      url('../fonts/SofiaProRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: url(../img/bg-1.png) no-repeat;
+  position: relative;
+  background-color: #000;
+}
+
+.galaxy {
+  z-index: 4;
+  width: 100%;
+  position: absolute;
+  top: 84%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.galaxy-mobile {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);  
+}
+
+.screen-1 {
+  position: relative;
+  z-index: 4;
+  background: url(0deg 0% 0%);
+  max-width: 1920px;
+  width: 100%;
+  height: 2092px;
+}
+
+.screen-1__container {
+  margin: 0 auto;
+  max-width: 1894px;
+  width: 100%;
+  height: 1413px;
+}
+
+.screen-1__container-img1 {
+  padding-left: 69px;
+  padding-top: 52px;
+  margin-bottom: 164px;
+  width: 128px;
+  height: 70px;
+}
+
+.screen-1__img1 {
+  width: 128px;
+  height: 57px;
+  transform: matrix(0.99, -0.12, 0.12, 0.99, 0, 0);
+}
+
+.screen-1__container-content {
+
+}
+
+.screen-1__container-content h1 {
+  padding: 0 32px;
+  margin-bottom: 91px;
+  text-align: center;
+  font: normal normal normal 59px/72px Century Gothic;
+  letter-spacing: 11.8px;
+  color: #FFFFFF;
+  opacity: 1; 
+}
+
+.screen-1__general-info {
+  margin: 0 auto 158px auto;
+  width: 422px;
+  height: 152px;
+  text-align: center;
+  font: normal normal normal 15px/28px Century Gothic;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.screen-1__links {
+  margin: 0 auto;
+  max-width: 346px;
+  width: 100%;
+}
+
+.screen-1__button {
+  cursor: pointer;
+  margin: 0px 0 46px 0;
+  width: 346px;
+  height: 66px;
+  background: #000000D4 0% 0% no-repeat padding-box;
+  border: 1px solid #000000;
+  border-radius: 36px;
+  opacity: 1;
+
+  text-align: center;
+  font: normal normal normal 21px/26px Century Gothic;
+  letter-spacing: 2.1px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.screen-1__link {
+  display: block;
+  margin: 0 auto 246px auto;
+  width: 314px;
+  height: 25px;
+  text-align: center;
+  text-decoration: underline;
+  font: normal normal normal 21px/26px Century Gothic;
+  letter-spacing: 2.1px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.screen-1__container-column {
+  max-width: 1782px;
+  width: 100%;
+}
+
+.screen-1__container-column-content {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1782px;
+  width: 100%;
+}
+
+.screen-1__container-column-content h2 {
+  margin-bottom: 71px;
+  height: 48px;
+  text-align: center;
+  font: normal normal normal 40px/49px Century Gothic;
+  letter-spacing: 8px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.screen-1__container-column-content p {
+
+}
+
+.screen-1__columns {
+  padding: 0 43px;
+  margin: 0 auto;
+  max-width: 1755px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.screen-1__container-content-1 {
+  max-width: 1002px;
+  width: 100%;
+}
+
+.screen-1__weapon-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.screen-1__container-content-2 {
+  max-width: 684px;
+  width: 100%; 
+}
+
+.screen-1__weapon-2 {
+  max-width: 480px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.screen-1__img {
+  width: 264px;
+  height: 265px;
+  background: transparent url('img/scatter1.png') 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.screen-1__content-text {
+  width: 100%;
+}
+
+.screen-1__content-text h2 {
+  margin-bottom: 74px;
+  height: 48px;
+  text-align: center;
+  font: normal normal normal 40px/49px Century Gothic;
+  letter-spacing: 8px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.screen-1__left-column {
+  margin: 0 auto 66px auto;
+  max-width: 650px;
+  width: 100%;
+  height: 152px;
+  text-align: center;
+  font: normal normal normal 15px/28px Century Gothic;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.screen-1__right-column {
+  margin: 0 auto 66px auto;
+  max-width: 590px;
+  width: 100%;
+  height: 152px;
+  text-align: center;
+  font: normal normal normal 15px/28px Century Gothic;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  opacity: 1;  
+}
+
+.screen-2__content-1 {
+}
+
+.screen-1__content-2 {
+  padding: 0 18px;
+  margin-top: 125px;
+  max-width: 140px;
+  width: 100%;
+  height: 54px;
+  text-align: center;
+  font: normal normal normal 45px/22px Century Gothic;
+  letter-spacing: 0px;
+  color: hsl(0deg 0% 100%);
+  opacity: 1;
+}
+
+.screen-1__content-3 {
+}
+
+.screen-1__content-4 {
+  padding: 0 18px;
+  margin-top: 125px;
+  max-width: 140px;
+  width: 100%;
+  height: 54px;
+  text-align: center;
+  font: normal normal normal 45px/22px Century Gothic;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.screen-1__content-5 {
+}
+
+.screen-1__content-6 {
+  padding: 0 18px;
+  max-width: 140px;
+  width: 100%;
+  margin: 125px auto 125px auto;
+  height: 54px;
+  text-align: center;
+  font: normal normal normal 45px/22px Century Gothic;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.screen-1__content-7 {
+}
+
+.screen-1__specifications {
+  margin-top: 41px;  
+  width: 265px;
+  height: 132px;
+}
+
+.screen-1__spec-container-1 {
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.screen-1__spec-container-2 {
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.screen-1__spec-1 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #313131 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-2 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-3 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-4 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #313131 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-5 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-6 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #313131 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-7 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-8 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-9 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-10 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-11 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #313131 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-12 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-13 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #313131 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-14 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #313131 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-15 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #313131 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-1__spec-16 {
+  cursor: pointer;
+  width: 128px;
+  height: 57px;
+  background: #313131 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+
+.screen-1__class {
+  margin-top: 4px;
+  text-align: center;
+  font: normal normal bold 10px/22px Century Gothic;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+.screen-1__name {
+  margin: 0 auto;
+  width: 92px;
+  height: 22px;
+  text-align: center;
+  font: normal normal normal 19px/22px Century Gothic;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+.screen-1__name p {
+  width: 28px;
+}
+
+
+.screen-2 {
+  background-color: #000;
+}
+
+.screen-2__form-container {
+  padding: 0 32px;
+  margin: 0 auto;
+  max-width: 1555px;
+  width: 100%;
+}
+
+.screen-2__form-text {
+}
+
+.screen-2__form-text h2 {
+  margin: 0 auto 48px auto; 
+  max-width: 960px;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  font: normal normal normal 40px/49px Century Gothic;
+  letter-spacing: 8px;
+  color: #FFFFFF;
+  opacity: 1;  
+}
+
+.screen-2__form-text p {
+  margin: 0 auto 78px auto; 
+  max-width: 799px;
+  width: 100%;
+  height: 152px;
+  text-align: center;
+  font: normal normal normal 15px/28px Century Gothic;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  opacity: 1; 
+}
+
+.screen-2__form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 52px;
+}
+
+.screen-2__input-container {}
+
+.screen-2__input-container-3 {}
+
+.screen-2__input-container-3 p {
+  margin-left: 32px;
+  font: normal normal normal 15px/47px Century Gothic;
+  letter-spacing: 1.5px;
+  color: #9D9D9D;  
+}
+
+.screen-2__form-input {
+  padding-left: 27px;
+  font: normal normal normal 15px/47px Century Gothic;
+  letter-spacing: 1.5px;
+  color: #fff;
+  width: 339px;
+  height: 57px;
+  background: #313131 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.screen-2__form-input::placeholder {
+  text-align: left;
+  font: normal normal normal 15px/47px Century Gothic;
+  letter-spacing: 1.5px;
+  color: #9D9D9D;
+  opacity: 1;
+}
+
+.screen-2__form-button {
+  cursor: pointer;
+  width: 339px;
+  height: 57px;
+  background: #6320B9 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+
+  text-align: center;
+  font: normal normal normal 15px/47px Century Gothic;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1.5px;  
+}
+
+.screen-2__form-button:active {
+  background: #fff;
+  color: #6320B9;
+}
+
+.screen-3 {
+  background-color: #000;
+  max-width: 1920px;
+  width: 100%;
+  height: 779px;
+  color: #6320B9;
+}
+
+.screen-3__content {
+  padding-top: 201px;  
+  margin: 0 auto;
+  width: 576px;
+}
+
+.screen-3__img {
+  display: block;
+  margin: 0 auto 49px auto;
+  width: 133px;
+  height: 157px;
+}
+.screen-3__copyright {
+  margin: 0 auto 116px auto;
+  width: 311px;
+  height: 47px;
+  text-align: center;
+  font-family: 'Sofia Pro';
+  font-size: 43px;
+  letter-spacing: 0px;
+  font-weight: 600;
+  color: #FFFFFF;
+  opacity: 1;  
+}
+
+.screen-3__syte-adress-1 {
+  margin: 0 auto;
+  width: 310px;
+  height: 52px;
+  text-align: center;
+  font-family: 'Sofia Pro';
+  font-size: 40px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.screen-3__syte-adress-2 {
+  margin: 0 auto;
+  width: 445px;
+  height: 42px;
+  text-align: center;
+  font: normal normal normal 35px/43px Century Gothic;
+  letter-spacing: 7px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1585px) {
+
+  .galaxy-mobile {
+    width: 100%;
+    top: 84%;
+    left:50%;
+  }
+
+  .screen-1__columns {
+    padding: 0 61px;
+  }
+
+  .screen-2__form {
+    display: block;
+    padding: 0 32px;
+  }
+
+  .screen-2__input-container {
+    margin: 0 auto 34px auto;
+    max-width: 504px;
+    width: 100%;
+  }
+
+  .screen-2__input-container-3 {
+    margin: 0 auto 34px auto;
+    max-width: 504px;
+    width: 100%;
+  }
+
+.screen-2__form-input {
+    padding-left: 27px;
+    font: normal normal normal 15px/47px Century Gothic;
+    letter-spacing: 1.5px;
+    color: #fff;
+    width: 504px;
+    height: 57px;
+    background: #313131 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    opacity: 1;
+  }
+
+.screen-2__form-button {
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
+
+@media only screen and (max-width: 1454px) {
+
+  .galaxy {
+    display: none;
+  }
+
+  .galaxy-mobile {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 70%;
+    left:50%;
+    transform:translate(-50%, -50%);  
+  }
+
+  .screen-1 {
+    height: auto;
+  }
+
+  .screen-1__container {
+    height: auto;
+  }
+
+  .screen-1__img {
+    width: 457px;
+    height: 457px;
+  }
+
+  .screen-1__right-column {
+    margin: 0 auto 152px auto;
+    max-width: 477px;
+    width: 100%;
+  }
+
+  .screen-1__specifications {
+    max-width: 443px;
+    width: 100%;
+    margin: 41px auto 41px auto;
+  } 
+
+  .screen-1__spec-container-1 {
+    margin-bottom: 44px;
+  }
+
+  .screen-1__weapon-1 {
+    margin: 0 auto;
+    max-width: 458px;
+    width: 100%;
+    display: block;
+  }
+
+  .screen-1__weapon-2 {
+    margin: 0 auto;
+    width: 480px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .screen-1__columns {
+    justify-content: center;
+    padding: 0 28px;
+    flex-wrap: wrap;
+  }
+
+  .screen-1__container-content-2 {
+    margin-top: 180px;
+    display: block;
+  }
+
+  .screen-1__spec-1 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-2 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-3 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-4 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-5 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-6 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-7 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-8 {
+    width: 210px;
+    height: 88px;
+  }
+  
+  .screen-1__spec-9 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-10 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-11 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-12 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-13 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-14 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-15 {
+    width: 210px;
+    height: 88px;
+  }
+
+  .screen-1__spec-16 {
+    width: 210px;
+    height: 88px;
+  }
+
+
+
+
+  
+
+  .screen-1__class {
+    font: normal normal bold 17px/43px Century Gothic;
+  }
+  
+  .screen-1__name {
+    font: normal normal normal 23px/22px Century Gothic;
+  }
+
+  .screen-1__content-2 {
+    margin: 125px auto 33px auto;
+  }
+
+  .screen-1__content-4 {
+    margin: 125px auto 33px auto;
+  }  
+
+  .screen-1__content-6 {
+    display: none;
+  } 
+
+  .screen-2 {
+    width: 100%;
+    margin: 252px 0 0 0;
+  }
+
+  .screen-2__form-container {
+    margin: 0 auto;
+    max-width: 1207px;
+    width: 100%;
+  }
+
+  .screen-2__form {
+    margin: 0 auto;
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 52px;
+    max-width: 601px;
+    width: 100%;
+  }
+
+  .screen-2__form-text p {
+    padding: 0 90px;
+  }  
+
+  .screen-2__form-input {
+    max-width: 601px;
+    height: 91px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .screen-2__form-button {
+    display: block;
+    margin: 0 auto;
+    height: 91px;
+  } 
+   
+}
+
+@media only screen and (max-width: 741px) {
+
+  .screen-1__container-content h1 {
+    font: normal normal normal 34px/72px Century Gothic;
+    font-weight: 600;
+  }
+
+  .screen-1__general-info {
+    padding: 0 16px;
+    font: normal normal normal 20px/28px Century Gothic;
+  }    
+
+  .screen-1__container-content-1 {
+    max-width: 741px;
+    width: 100%;
+  }
+
+  .screen-1__button {
+    font: normal normal normal 24px/26px Century Gothic;
+  }
+
+  .screen-1__link {
+    font: normal normal normal 24px/26px Century Gothic;
+  }
+
+  .screen-1__left-column {
+    font: normal normal normal 21px/28px Century Gothic;
+    padding: 0 17px;
+    margin: 0 auto 188px auto;
+    max-width: 684px;
+    width: 100%;
+  }
+
+  .screen-1__right-column {
+    font: normal normal normal 21px/28px Century Gothic;
+  }
+
+  .screen-1__weapon-1 {
+    width: 77%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .screen-1__weapon-2 {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .screen-1__img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .screen-1__content-7 {
+    width: 94%;
+    height: 100%;
+  }
+
+  .screen-1__container-content-2 {
+    max-width: 665px;
+    width: 100%;
+  }
+
+  .screen-1__content-6 {
+    display: none;
+  }
+
+  .screen-2__form-text h2 {
+    margin: 0 auto 114px auto;
+    max-width: 960px;
+    width: 100%;
+  } 
+  
+  .screen-2__form-text p {
+    padding: 0 12px;
+    font: normal normal normal 21px/28px Century Gothic;
+    margin: 0 auto 273px auto;
+    max-width: 798px;
+    width: 100%;
+  }
+
+  .screen-2__form-input::placeholder {
+    font: normal normal normal 21px/47px Century Gothic;
+  }
+
+  .screen-2__form-input {
+    height: 91px;
+    font: normal normal normal 21px/47px Century Gothic;
+  }
+
+  .screen-2__input-container-3 p {
+    position: relative;
+    bottom: 23px;
+    margin-left: 32px;
+    font: normal normal normal 21px/47px Century Gothic;
+    letter-spacing: 1.5px;
+    color: hsl(0deg 0% 62%);
+  }
+
+  .screen-2__form-button {
+    font: normal normal normal 25px/47px Century Gothic;
+    margin: 0 auto 34px auto;
+    max-width: 504px;
+    width: 100%;
+    height: 91px;
+  }
+ 
+  .screen-2 {
+    width: 100%;
+    margin: 238px 0 0 0;
+  }
+
+  .screen-3__content {
+    padding-top: 147px;
+    margin: 0 auto;
+    max-width: 576px;
+    width: 100%;
+  }
+
+  .screen-3__img {
+    width: 182px;
+    height: 214px;
+  }
+
+  .screen-3__syte-adress-2 {
+    max-width: 445px;
+    width: 100%;
+    font: normal normal normal 27px/43px Century Gothic;
+  }
+}
+
+
